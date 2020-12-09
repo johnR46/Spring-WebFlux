@@ -11,4 +11,10 @@ public class HomeController {
     public Mono<String> hello(){
         return  Mono.just("Hello world . !");
     }
+
+
+     @GetMapping({"","/test"})
+    public Mono<String> hello2(){
+        return  Mono.just("Hello world . forrr rrrrrrrrr !");
+    }
 }
