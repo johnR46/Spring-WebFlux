@@ -17,13 +17,17 @@ Spring Initializr
 จำได้ว่า เสียเบียร์ไปแล้วประมาณ 3-4ป๋อง TT
 
 
-- 12/12/2020
+- 10/12/2020
    - การเขียน Dockerfile สำหรับ spring 
    - การ Build Docker Image  docker build -t ชื่อไรก็ได้ .
    - และการ Run Container docker run -d -p พอร์ตนอก:พอร์ตใน --name ชื่อ-imange ชื่อ-ที่จะแสดง
      - ex docker run -d -p 8080:8080 --name hello-world hello-world 
 
-- 13/12/2020
+- 11/12/2020
   - วันนี้ทำ jenkins file แต่ทำไม่ทัน เสียเบียร์ไปตามระเบียบ TT 
   - อันนี้ที่ทำไม่ทัน เหตุผล? ติดงานมั้ง
+
+- 12/12/2020
+  - วันนี้ก็ยังอยู่กับ jenkins 
+
 
