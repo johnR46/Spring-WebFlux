@@ -29,5 +29,12 @@ Spring Initializr
 
 - 12/12/2020
   - วันนี้ก็ยังอยู่กับ jenkins 
+  
+- 13/12/2020
+  - วันนี้ก็ยังอยู่กับ jenkins (หนีมา linux + นั่ง set jenkins server อยู่)
+  - ทำ registry ใช้เอง 
+   - https://www.jittagornp.me/blog/install-docker-registry/?series=docker
+   - (ทำ Jenkins JDK 11 ด้วย Docker)
+   - (ทำ private registry on localhost ไว้ใช้ในเครื่อง) 
 
 

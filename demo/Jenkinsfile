@@ -4,9 +4,9 @@ pipeline {
 
     environment {
         IMAGE_NAME = "registry.spring.webflux/hello-world:${env.BUILD_NUMBER}"
-        REGISTRY_URL = "https://spring.webflux.me"
-        REGISTRY_USERNAME = "foo"
-        REGISTRY_PASSWORD = "bar"
+        REGISTRY_URL = "http://localhost:85"
+        REGISTRY_USERNAME = "johnr46"
+        REGISTRY_PASSWORD = "john7313"
     }
 
     stages {
