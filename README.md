@@ -41,3 +41,11 @@ Spring Initializr
  - เหนื่อยโว้ย อยู่ๆก็ต้องหาเรื่องทำ flutter TT
  - แง ไอ่เมื่อวานก็ไม่ได้ต่อ ไอ่งานก็ต้องยัด K8s เค๊
  - ช่างแม่ง เอาเบียร์ไปเลย โว้ยยยยยยย
+
+- 15/12/2020
+ - ตัวอย่างการเขียน Spring-boot Reactive Logging 
+ - http://www.slf4j.org/manual.html
+ - @Slf4j เป็นการใช้ annotation ของ lombox เพื่อ generate Log4J Code (logging)
+   logging.level.org.springframework=DEBUG
+   logging.level.com.example=DEBUG
+   logging.file=/log/app.log`
