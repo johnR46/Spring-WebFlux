@@ -70,4 +70,12 @@ Spring Initializr
 - 18/12/2020
  - การตั้งค่า Default Time Zone ต่อ 
  - งงอีตรง /current-datetime ทำงานไม่ได้ 
- 
+
+- 19/12/2020
+ - การตั้ง default-locale
+ - มีความเข้าใจเรื่อง Internationalization (i18n) และ Localization (L10n) (นั่งอ่าน)
+   - i18n และ L10n เป็นเรื่องของการทำให้โปรแกรมที่เราเขียน รองรับ (Support) หลายภาษา หลายรูปแบบการแสดงผล 
+ - Language Code & Language Tag
+  - th , en Language Code (บอกแค่ภาษา)
+  - th-TH en-US Language Tag บอก เจาะจงทั้งภาษาและ Region (Country) เพื่อให้ใช้รูปแบบของภาษาและการแสดงผล 
+
