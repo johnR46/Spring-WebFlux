@@ -79,3 +79,6 @@ Spring Initializr
   - th , en Language Code (บอกแค่ภาษา)
   - th-TH en-US Language Tag บอก เจาะจงทั้งภาษาและ Region (Country) เพื่อให้ใช้รูปแบบของภาษาและการแสดงผล 
 
+- 20/12/2020
+ - การดึง Static Resources ( ตัวอย่างการ Get Static Resources จาก Spring-boot Reactive )
+ - ง่ายแปลกๆ แต่เท่านี้เนี่ยนะ = =
