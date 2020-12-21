@@ -82,3 +82,9 @@ Spring Initializr
 - 20/12/2020
  - การดึง Static Resources ( ตัวอย่างการ Get Static Resources จาก Spring-boot Reactive )
  - ง่ายแปลกๆ แต่เท่านี้เนี่ยนะ = =
+
+- 21/12/2020
+ -  การ Custom Path เพื่อดึง Static Resources
+   - spring.webflux.static-path-pattern: /assets/**  
+      - ตรง assets ตั้งชื่อตรงนี้แหละเปลียนเป็นไรก็ได้ แต่ตอนเข้า http://localhost:8080/assets/images/beer.png ควรจะ แทนที่คำว่า assets ด้วยคำที่แก้ไปซะ
+   - spring.resources.static-locations: classpath:/static/
