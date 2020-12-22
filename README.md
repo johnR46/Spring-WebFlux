@@ -88,3 +88,11 @@ Spring Initializr
    - spring.webflux.static-path-pattern: /assets/**  
       - ตรง assets ตั้งชื่อตรงนี้แหละเปลียนเป็นไรก็ได้ แต่ตอนเข้า http://localhost:8080/assets/images/beer.png ควรจะ แทนที่คำว่า assets ด้วยคำที่แก้ไปซะ
    - spring.resources.static-locations: classpath:/static/
+
+- 22/12/2020
+ - ตัวอย่างการ Config Http Caching ให้ Static Resources สำหรับ Spring-boot Reactive
+   # caching
+   spring.resources.cache.cachecontrol.cache-public=true
+   # 1 day = 86400 seconds = 60 seconds x 60 x 24
+   spring.resources.cache.cachecontrol.max-age=86400
+   
