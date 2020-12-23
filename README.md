@@ -95,4 +95,12 @@ Spring Initializr
    spring.resources.cache.cachecontrol.cache-public=true
    # 1 day = 86400 seconds = 60 seconds x 60 x 24
    spring.resources.cache.cachecontrol.max-age=86400
-   
+
+- 23/12/2020
+ - ตัวอย่างการเขียน  Spring-boot Reactive Controller
+   # ข้อสังเกตุ
+   - @RestController เป็นการระบุว่า class นี้เป็น Controller แบบที่เป็น RESTFul
+   - @RequestMapping("/users") เป็นการกำหนด Path สำหรับทุก ๆ Method ใน Controller นี้ ว่าให้ขึ้นต้นด้วยคำว่า /users
+   - @RequestBody เป็นการแปลงและรับค่า request body จาก JSON => Java Object
+  mono = 1 
+  Flux = หลายอัน
