@@ -107,3 +107,8 @@ Spring Initializr
 
 - 25/12/2020
   - พัง
+
+- 26 - 03 หยุดปีใหม่ ถถถ
+
+- 04/01/2021
+ - การ config Cors (Cross-origin resource sharing)

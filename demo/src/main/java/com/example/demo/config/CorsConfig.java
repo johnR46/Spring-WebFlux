@@ -1,20 +1,16 @@
-package com.example.demo;
-
-import java.time.Duration;
-import java.util.Arrays;
-
+package com.example.demo.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
-
-import io.netty.handler.codec.http.HttpMethod;
+import java.time.Duration;
+import java.util.Arrays;
 
 @Configuration
-public class CorsConfig {
-
+public class CorsConfig{
     @Bean
     public CorsWebFilter corsWebFilter() {
         final CorsConfiguration config = new CorsConfiguration();
@@ -51,5 +47,4 @@ public class CorsConfig {
 
         return new CorsWebFilter(source);
     }
-
 }
