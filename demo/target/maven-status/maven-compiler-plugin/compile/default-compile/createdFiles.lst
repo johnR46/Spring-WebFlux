@@ -1,12 +1,15 @@
 com\example\demo\rest\TimeZoneController$DTO.class
 com\example\demo\rest\TimeZoneController.class
 com\example\demo\DemoApplication.class
+com\example\demo\Model\RegisterForm$RegisterFormBuilder.class
 com\example\demo\config\CorsConfig.class
+com\example\demo\rest\RegisterFormController.class
 com\example\demo\TimeZoneConfig.class
 com\example\demo\LocaleConfig.class
 com\example\demo\domain\User.class
 com\example\demo\rest\TimeZoneController$DTO$DTOBuilder.class
 com\example\demo\rest\UserController.class
 com\example\demo\domain\User$UserBuilder.class
+com\example\demo\Model\RegisterForm.class
 com\example\demo\rest\HomeController.class
 com\example\demo\rest\LocaleController.class

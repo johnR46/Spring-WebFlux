@@ -112,3 +112,12 @@ Spring Initializr
 
 - 04/01/2021
  - การ config Cors (Cross-origin resource sharing)
+
+- 05/01/2021
+ - ไม่ได้ทำ
+- 06/01/2021
+ - ไม่ได้ทำ
+
+- 07/01/2021
+ - การรับค่าจาก Html Form
+ 
